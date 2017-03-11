@@ -230,3 +230,7 @@ YUG = "countries/Yugoslavia.txt"
 YUN = "countries/Yunnan.txt"
 ZAM = "countries/Zambia.txt"
 ZIM = "countries/Zimbabwe.txt"
+
+##################################
+
+BAR = "countries/Barton Peveril.txt"
