@@ -1,0 +1,37 @@
+state={
+	id=886
+	name="STATE_886" # Barton_Peveril
+	provinces={
+		6489 
+	}
+	history = {
+		owner = BAR
+		add_core_of = BAR
+		
+		resources = {
+			oil = 200
+			steel = 200
+			rubber = 200
+			aluminium = 200
+			chromium = 200
+			tungsten = 200
+		}
+		
+		buildings = {
+		
+			dockyard = 10
+			anti_air_building = 5
+			radar_station = 5
+			air_base = 10
+			
+			infrastructure = 10
+			industrial_complex = 10
+			6489 = { naval_base = 10 }
+		}
+		victory_points = { 6489 50 }
+	}
+	manpower=100000000
+	buildings_max_level_factor=10.000
+	
+	state_category = town
+}

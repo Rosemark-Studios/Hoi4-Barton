@@ -1,0 +1,191 @@
+﻿capital = 6489
+
+oob = "ENG_2000"
+
+set_research_slots = 4
+set_convoys = 1000
+set_national_unity = 1
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	destroyer1 = 1
+	destroyer2 = 1
+	frigate1 = 1
+	frigate2 = 1
+	missile_cruiser1 = 1
+	missile_cruiser2 = 1
+	carrier1 = 1
+	carrier2 = 1
+	submarine1 = 1
+	submarine2 = 1
+	destroyer_improved_engines = 1
+	destroyer_advanced_engines = 1
+	carrier_nuclear_reactor = 1
+	submarine_nuclear_reactor = 1
+	cold_war_ship_design = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	radio_detection = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	partially_recognized_state
+	population_growth_rapid
+}
+
+
+set_politics = {
+
+	parties = {		
+		fascist = {
+			popularity = 100
+		}
+	}
+	
+	ruling_party = fascist
+	last_election = "1997.5.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Johnathan Prest"
+	desc = "POLITICIAN_ENG_TONY_BLAIR_DESC"
+	picture = "Portrait_BAR_John_P.dds"
+	expire = "2020.1.1"
+	ideology = fascist_ideology
+	
+	traits = {
+	
+	}
+}
+
+
+create_country_leader = {
+	name = "Michael Holmes"
+	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
+	picture = "Portrait_ENG_Michael_Holmes.dds"
+	expire = "2050.1.1"
+	ideology = counter_progressive_democrat
+	}	
+
+create_country_leader = {
+	name = "Queen Elizabeth II"
+	desc = "POLITICIAN_ENG_QUEEN_ELIZABETH_DESC"
+	picture = "Portrait_ENG_Elizabeth_II.dds"
+	expire = "2050.1.1"
+	ideology = absolute_monarchist
+	}
+	
+create_country_leader = {
+	name = "William Hague"
+	desc = "POLITICIAN_ENG_WILLIAM_HAGUE_DESC"
+	picture = "Portrait_ENG_William_Hague.dds"
+	expire = "2050.1.1"
+	ideology = fiscal_conservative
+	}
+
+create_country_leader = {
+	name = "Charles Kennedy"
+	desc = "POLITICIAN_ENG_CHARLES_KENNEDY_DESC"
+	picture = "Portrait_ENG_Charles_Kennedy.dds"
+	expire = "2050.1.1"
+	ideology = liberalist
+	}
+	
+create_country_leader = {
+	name = "Robert David Griffiths"
+	desc = "POLITICIAN_ENG_ROBERT_GRIFFITH_DESC"
+	picture = "Portrait_ENG_Robert_Griffiths.dds"
+	expire = "2050.1.1"
+	ideology = marxist
+	}
+	
+create_country_leader = {
+	name = "Nick Griffin"
+	desc = "POLITICIAN_ENG_NICK_GRIFFIN_DESC"
+	picture = "Portrait_ENG_Nick_Griffin.dds"
+	expire = "2050.1.1"
+	ideology = proto_fascist
+	}
+
+create_country_leader = {
+	name = "Green Party"
+	desc = "POLITICIAN_ENG_GREEN_PARTY_DESC"
+	picture = "Portrait_ENG_Green_Party.dds"
+	expire = "2050.1.1"
+	ideology = Green
+	}
+
+create_country_leader = {
+	name = "Anjem Choudary"
+	desc = "POLITICIAN_ENG_ANJEM_CHOUDARY_DESC"
+	picture = "Portrait_ENG_Anjem_Choudary.dds"
+	expire = "2050.1.1"
+	ideology = islamic_authoritarian
+	}
+	
