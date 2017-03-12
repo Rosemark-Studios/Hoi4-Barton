@@ -131,7 +131,7 @@ create_country_leader = {
 	desc = "POLITICIAN_ENG_TONY_BLAIR_DESC"
 	picture = "Portrait_BAR_John_P.dds"
 	expire = "2020.1.1"
-	ideology = fascist
+	ideology = national_socialist
 	
 	traits = {
 	popular_figurehead
@@ -144,7 +144,7 @@ create_country_leader = {
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
 	picture = "Portrait_ENG_Michael_Holmes.dds"
 	expire = "2050.1.1"
-	ideology = nationalist
+	ideology = proto_fascist
 }	
 	
 create_country_leader = {
@@ -152,7 +152,7 @@ create_country_leader = {
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
 	picture = "Portrait_ENG_Michael_Holmes.dds"
 	expire = "2050.1.1"
-	ideology = monarchist
+	ideology = absolute_monarchist
 }	
 
 create_country_leader = {
@@ -160,7 +160,7 @@ create_country_leader = {
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
 	picture = "Portrait_ENG_Michael_Holmes.dds"
 	expire = "2050.1.1"
-	ideology = reactionary
+	ideology = oligarchist
 }	
 	
 create_country_leader = {
@@ -168,7 +168,7 @@ create_country_leader = {
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
 	picture = "Portrait_ENG_Michael_Holmes.dds"
 	expire = "2050.1.1"
-	ideology = conservative
+	ideology = fiscal_conservative
 }	
 	
 create_country_leader = {
@@ -176,7 +176,7 @@ create_country_leader = {
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
 	picture = "Portrait_ENG_Michael_Holmes.dds"
 	expire = "2050.1.1"
-	ideology = market_liberal
+	ideology = libertarian
 }	
 
 create_country_leader = {
@@ -184,7 +184,7 @@ create_country_leader = {
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
 	picture = "Portrait_ENG_Michael_Holmes.dds"
 	expire = "2050.1.1"
-	ideology = social_liberal
+	ideology = moderate
 }	
 
 create_country_leader = {
@@ -192,7 +192,7 @@ create_country_leader = {
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
 	picture = "Portrait_ENG_Michael_Holmes.dds"
 	expire = "2050.1.1"
-	ideology = social_democrat
+	ideology = social_democrat_ideology
 }	
 
 create_country_leader = {
@@ -200,7 +200,7 @@ create_country_leader = {
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
 	picture = "Portrait_ENG_Michael_Holmes.dds"
 	expire = "2050.1.1"
-	ideology = progressive
+	ideology = progressive_ideology
 }	
 
 create_country_leader = {
@@ -208,7 +208,7 @@ create_country_leader = {
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
 	picture = "Portrait_ENG_Michael_Holmes.dds"
 	expire = "2050.1.1"
-	ideology = democratic_socialist
+	ideology = democratic_socialist_ideology
 }	
 
 create_country_leader = {
@@ -216,7 +216,7 @@ create_country_leader = {
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
 	picture = "Portrait_ENG_Michael_Holmes.dds"
 	expire = "2050.1.1"
-	ideology = communist
+	ideology = maoist
 }	
 
 create_country_leader = {
@@ -224,5 +224,5 @@ create_country_leader = {
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
 	picture = "Portrait_ENG_Michael_Holmes.dds"
 	expire = "2050.1.1"
-	ideology = islamist
+	ideology = islamic_authoritarian 
 }	
