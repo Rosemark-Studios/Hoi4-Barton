@@ -1,4 +1,4 @@
-name="Barton Peveril"
+name="Millennium Dawn: Barton"
 path="mod/barton/"
 tags={
 	"Alternative History"

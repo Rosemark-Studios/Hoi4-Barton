@@ -1,9 +1,19 @@
 state={
 	id=889
-	name="STATE_886" # Barton_Peveril
+	name="STATE_889" # Barton_Peveril
 	provinces={
 		6489 
 	}
+
+	resources = {
+		oil=200
+		steel=200
+		rubber=200
+		aluminium=200
+		chromium=200
+		tungsten=200
+	}
+
 	history = {
 		owner = BAR
 		add_core_of = BAR
