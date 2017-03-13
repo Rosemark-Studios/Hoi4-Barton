@@ -127,7 +127,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Johnathan Prest"
+	name = "Jonathan Prest"
 	desc = "POLITICIAN_ENG_TONY_BLAIR_DESC"
 	picture = "Portrait_BAR_John_P.dds"
 	expire = "2020.1.1"
