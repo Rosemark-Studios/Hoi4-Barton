@@ -14,7 +14,7 @@ focus_tree = {
 	focus = {
 		id = BAR_political_push
 		icon = political_pressure
-		x = 5
+		x = 6
 		y = 0
 		cost = 4
 		
@@ -35,6 +35,8 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite = { focus = BAR_political_push }
+		
+		mutually_exclusive = { focus = BAR_expand_student_services }
 		
 		completion_reward = {
 			add_political_power = 50
@@ -74,6 +76,14 @@ focus_tree = {
 		
 		prerequisite = { focus = BAR_glynn_propaganda_department }
 		
+		mutually_exclusive = {
+			focus = BAR_reduce_funding_for_non_bartonians
+			focus = BAR_campaign_for_colin
+			focus = BAR_bartexit
+			focus = BAR_old_bartonian_funding
+			focus = BAR_isis_sister_college
+		}
+		
 		completion_reward = {
 			add_popularity = {
 				ideology = fascist
@@ -90,6 +100,14 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite = { focus = BAR_glynn_propaganda_department }
+		
+		mutually_exclusive = {
+			focus = BAR_make_barton_mega_again
+			focus = BAR_campaign_for_colin
+			focus = BAR_bartexit
+			focus = BAR_old_bartonian_funding
+			focus = BAR_isis_sister_college
+		}
 		
 		completion_reward = {
 			add_popularity = {
@@ -108,6 +126,14 @@ focus_tree = {
 		
 		prerequisite = { focus = BAR_glynn_propaganda_department }
 		
+		mutually_exclusive = {
+			focus = BAR_make_barton_mega_again
+			focus = BAR_reduce_funding_for_non_bartonians
+			focus = BAR_bartexit
+			focus = BAR_old_bartonian_funding
+			focus = BAR_isis_sister_college
+		}
+		
 		completion_reward = {
 			add_popularity = {
 				ideology = monarchist
@@ -124,6 +150,14 @@ focus_tree = {
 		cost = 10
 		
 		prerequisite = { focus = BAR_glynn_propaganda_department }
+		
+		mutually_exclusive = {
+			focus = BAR_make_barton_mega_again
+			focus = BAR_reduce_funding_for_non_bartonians
+			focus = BAR_campaign_for_colin
+			focus = BAR_old_bartonian_funding
+			focus = BAR_isis_sister_college
+		}
 		
 		completion_reward = {
 			add_popularity = {
@@ -142,6 +176,14 @@ focus_tree = {
 		
 		prerequisite = { focus = BAR_glynn_propaganda_department }
 		
+		mutually_exclusive = {
+			focus = BAR_make_barton_mega_again
+			focus = BAR_reduce_funding_for_non_bartonians
+			focus = BAR_campaign_for_colin
+			focus = BAR_bartexit
+			focus = BAR_isis_sister_college
+		}
+		
 		completion_reward = {
 			add_popularity = {
 				ideology = conservative
@@ -159,6 +201,14 @@ focus_tree = {
 		
 		prerequisite = { focus = BAR_glynn_propaganda_department }
 		
+		mutually_exclusive = {
+			focus = BAR_make_barton_mega_again
+			focus = BAR_reduce_funding_for_non_bartonians
+			focus = BAR_campaign_for_colin
+			focus = BAR_bartexit
+			focus = BAR_old_bartonian_funding
+		}
+		
 		completion_reward = {
 			add_popularity = {
 				ideology = islamist
@@ -170,11 +220,13 @@ focus_tree = {
 	focus = {
 		id = BAR_expand_student_services
 		icon = political_pressure
-		x = 8
+		x = 10
 		y = 1
 		cost = 10
 		
 		prerequisite = { focus = BAR_political_push }
+		
+		mutually_exclusive = { focus = BAR_glynn_propaganda_department }
 		
 		completion_reward = {
 			add_political_power = 50
@@ -208,11 +260,19 @@ focus_tree = {
 	focus = {
 		id = BAR_after_hours_maths_hub
 		icon = support_democracy
-		x = 6
+		x = 7
 		y = 2
 		cost = 10
 		
 		prerequisite = { focus = BAR_expand_student_services }
+		
+		mutually_exclusive = {
+			focus = BAR_subscribe_to_tl_maths
+			focus = BAR_suvat_homework_for_all
+			focus = BAR_funding_for_humanities
+			focus = BAR_found_the_students_union
+			focus = BAR_cheung_for_head_of_science
+		}
 		
 		completion_reward = {
 			add_popularity = {
@@ -225,11 +285,19 @@ focus_tree = {
 	focus = {
 		id = BAR_subscribe_to_tl_maths
 		icon = support_democracy
-		x = 7
+		x = 8
 		y = 2
 		cost = 10
 		
 		prerequisite = { focus = BAR_expand_student_services }
+		
+		mutually_exclusive = {
+			focus = BAR_after_hours_maths_hub
+			focus = BAR_suvat_homework_for_all
+			focus = BAR_funding_for_humanities
+			focus = BAR_found_the_students_union
+			focus = BAR_cheung_for_head_of_science
+		}
 		
 		completion_reward = {
 			add_popularity = {
@@ -242,11 +310,19 @@ focus_tree = {
 	focus = {
 		id = BAR_suvat_homework_for_all
 		icon = support_democracy
-		x = 8
+		x = 9
 		y = 2
 		cost = 10
 		
 		prerequisite = { focus = BAR_expand_student_services }
+		
+		mutually_exclusive = {
+			focus = BAR_after_hours_maths_hub
+			focus = BAR_subscribe_to_tl_maths
+			focus = BAR_funding_for_humanities
+			focus = BAR_found_the_students_union
+			focus = BAR_cheung_for_head_of_science
+		}
 		
 		completion_reward = {
 			add_popularity = {
@@ -259,11 +335,19 @@ focus_tree = {
 	focus = {
 		id = BAR_funding_for_humanities
 		icon = support_democracy
-		x = 9
+		x = 10
 		y = 2
 		cost = 10
 		
 		prerequisite = { focus = BAR_expand_student_services }
+		
+		mutually_exclusive = {
+			focus = BAR_after_hours_maths_hub
+			focus = BAR_subscribe_to_tl_maths
+			focus = BAR_suvat_homework_for_all
+			focus = BAR_found_the_students_union
+			focus = BAR_cheung_for_head_of_science
+		}
 		
 		completion_reward = {
 			add_popularity = {
@@ -276,11 +360,19 @@ focus_tree = {
 	focus = {
 		id = BAR_found_the_students_union
 		icon = support_democracy
-		x = 10
+		x = 11
 		y = 2
 		cost = 10
 		
 		prerequisite = { focus = BAR_expand_student_services }
+		
+		mutually_exclusive = {
+			focus = BAR_after_hours_maths_hub
+			focus = BAR_subscribe_to_tl_maths
+			focus = BAR_suvat_homework_for_all
+			focus = BAR_funding_for_humanities
+			focus = BAR_cheung_for_head_of_science
+		}
 		
 		completion_reward = {
 			add_popularity = {
@@ -293,11 +385,19 @@ focus_tree = {
 	focus = {
 		id = BAR_cheung_for_head_of_science
 		icon = support_communism
-		x = 11
+		x = 12
 		y = 2
 		cost = 10
 		
 		prerequisite = { focus = BAR_expand_student_services }
+		
+		mutually_exclusive = {
+			focus = BAR_after_hours_maths_hub
+			focus = BAR_subscribe_to_tl_maths
+			focus = BAR_suvat_homework_for_all
+			focus = BAR_funding_for_humanities
+			focus = BAR_found_the_students_union
+		}
 		
 		completion_reward = {
 			add_popularity = {
@@ -308,8 +408,20 @@ focus_tree = {
 	}
 	
 	
-#Diplomacy Focus'
-	
+#Diplomacy/Misc Focus'
+	focus = {
+		id = BAR_
+		icon = 
+		x = 
+		y = 
+		cost = 10
+		
+		prerequisite = { focus = BAR_ }
+		
+		completion_reward = {
+			
+		}
+	}
 #Army Focus'
 
 #Air Focus'
@@ -317,26 +429,19 @@ focus_tree = {
 #Navy Focus'
 	
 #Industry Focus'
-	focus = {
-		id = BAR_industry_funding
-		icon = production
-		x = 5
-		y = 0
-		cost = 10
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 0.5
-				uses = 1
-				category = industry
-			}
-		}
-	}
 
-
+#focus template
+#	focus = {
+#		id = BAR_
+#		icon = 
+#		x = 
+#		y = 
+#		cost = 10
+#		
+#		prerequisite = { focus = BAR_ }
+#		
+#		completion_reward = {
+#			
+#		}
+#	}
 }
