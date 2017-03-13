@@ -1,0 +1,342 @@
+focus_tree = {
+	id = barton_peveril_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 20
+			original_tag = BAR
+		}
+	}
+	
+#Political Focus'
+	focus = {
+		id = BAR_political_push
+		icon = political_pressure
+		x = 5
+		y = 0
+		cost = 4
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = BAR_glynn_propaganda_department
+		icon = political_pressure
+		x = 2
+		y = 1
+		cost = 10
+		
+		prerequisite = { focus = BAR_political_push }
+		
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = reactionary
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = conservative
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = islamist
+				popularity = 0.05
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_make_barton_mega_again
+		icon = support_fascism
+		x = 0
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_glynn_propaganda_department }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_reduce_funding_for_non_bartonians
+		icon = support_fascism
+		x = 1
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_glynn_propaganda_department }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_campaign_for_colin
+		icon = support_fascism
+		x = 2
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_glynn_propaganda_department }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_bartexit
+		icon = support_fascism
+		x = 3
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_glynn_propaganda_department }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = reactionary
+				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_old_bartonian_funding
+		icon = support_fascism
+		x = 4
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_glynn_propaganda_department }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = conservative
+				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_isis_sister_college
+		icon = support_fascism
+		x = 5
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_glynn_propaganda_department }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = islamist
+				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_expand_student_services
+		icon = political_pressure
+		x = 8
+		y = 1
+		cost = 10
+		
+		prerequisite = { focus = BAR_political_push }
+		
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = market_liberal
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = social_liberal 
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = social_democrat  
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = progressive  
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = democratic_socialist  
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = communist   
+				popularity = 0.05
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_after_hours_maths_hub
+		icon = support_democracy
+		x = 6
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_expand_student_services }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = market_liberal
+				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_subscribe_to_tl_maths
+		icon = support_democracy
+		x = 7
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_expand_student_services }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_suvat_homework_for_all
+		icon = support_democracy
+		x = 8
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_expand_student_services }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_funding_for_humanities
+		icon = support_democracy
+		x = 9
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_expand_student_services }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = progressive
+				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_found_the_students_union
+		icon = support_democracy
+		x = 10
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_expand_student_services }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_cheung_for_head_of_science
+		icon = support_communism
+		x = 11
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_expand_student_services }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = communist
+				popularity = 0.15
+			}
+		}
+	}
+	
+	
+#Diplomacy Focus'
+	
+#Army Focus'
+
+#Air Focus'
+
+#Navy Focus'
+	
+#Industry Focus'
+	focus = {
+		id = BAR_industry_funding
+		icon = production
+		x = 5
+		y = 0
+		cost = 10
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
+	}
+
+
+}
