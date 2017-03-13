@@ -95,7 +95,7 @@ focus_tree = {
 	focus = {
 		id = BAR_reduce_funding_for_non_bartonians
 		icon = support_fascism
-		x = 1
+		x = 2
 		y = 2
 		cost = 10
 		
@@ -120,7 +120,7 @@ focus_tree = {
 	focus = {
 		id = BAR_campaign_for_colin
 		icon = support_fascism
-		x = 2
+		x = 4
 		y = 2
 		cost = 10
 		
@@ -145,7 +145,7 @@ focus_tree = {
 	focus = {
 		id = BAR_bartexit
 		icon = support_fascism
-		x = 3
+		x = 6
 		y = 2
 		cost = 10
 		
@@ -170,7 +170,7 @@ focus_tree = {
 	focus = {
 		id = BAR_old_bartonian_funding
 		icon = support_fascism
-		x = 4
+		x = 8
 		y = 2
 		cost = 10
 		
@@ -195,7 +195,7 @@ focus_tree = {
 	focus = {
 		id = BAR_isis_sister_college
 		icon = support_fascism
-		x = 5
+		x = 10
 		y = 2
 		cost = 10
 		
@@ -260,7 +260,7 @@ focus_tree = {
 	focus = {
 		id = BAR_after_hours_maths_hub
 		icon = support_democracy
-		x = 7
+		x = 12
 		y = 2
 		cost = 10
 		
@@ -269,7 +269,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = BAR_subscribe_to_tl_maths
 			focus = BAR_suvat_homework_for_all
-			focus = BAR_funding_for_humanities
+			focus = BAR_it_reforms
 			focus = BAR_found_the_students_union
 			focus = BAR_cheung_for_head_of_science
 		}
@@ -285,7 +285,7 @@ focus_tree = {
 	focus = {
 		id = BAR_subscribe_to_tl_maths
 		icon = support_democracy
-		x = 8
+		x = 14
 		y = 2
 		cost = 10
 		
@@ -294,7 +294,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = BAR_after_hours_maths_hub
 			focus = BAR_suvat_homework_for_all
-			focus = BAR_funding_for_humanities
+			focus = BAR_it_reforms
 			focus = BAR_found_the_students_union
 			focus = BAR_cheung_for_head_of_science
 		}
@@ -310,7 +310,7 @@ focus_tree = {
 	focus = {
 		id = BAR_suvat_homework_for_all
 		icon = support_democracy
-		x = 9
+		x = 16
 		y = 2
 		cost = 10
 		
@@ -319,7 +319,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = BAR_after_hours_maths_hub
 			focus = BAR_subscribe_to_tl_maths
-			focus = BAR_funding_for_humanities
+			focus = BAR_it_reforms
 			focus = BAR_found_the_students_union
 			focus = BAR_cheung_for_head_of_science
 		}
@@ -333,9 +333,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BAR_funding_for_humanities
+		id = BAR_it_reforms
 		icon = support_democracy
-		x = 10
+		x = 18
 		y = 2
 		cost = 10
 		
@@ -360,7 +360,7 @@ focus_tree = {
 	focus = {
 		id = BAR_found_the_students_union
 		icon = support_democracy
-		x = 11
+		x = 20
 		y = 2
 		cost = 10
 		
@@ -370,7 +370,7 @@ focus_tree = {
 			focus = BAR_after_hours_maths_hub
 			focus = BAR_subscribe_to_tl_maths
 			focus = BAR_suvat_homework_for_all
-			focus = BAR_funding_for_humanities
+			focus = BAR_it_reforms
 			focus = BAR_cheung_for_head_of_science
 		}
 		
@@ -385,7 +385,7 @@ focus_tree = {
 	focus = {
 		id = BAR_cheung_for_head_of_science
 		icon = support_communism
-		x = 12
+		x = 22
 		y = 2
 		cost = 10
 		
@@ -395,7 +395,7 @@ focus_tree = {
 			focus = BAR_after_hours_maths_hub
 			focus = BAR_subscribe_to_tl_maths
 			focus = BAR_suvat_homework_for_all
-			focus = BAR_funding_for_humanities
+			focus = BAR_it_reforms
 			focus = BAR_found_the_students_union
 		}
 		

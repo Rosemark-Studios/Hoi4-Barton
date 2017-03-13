@@ -196,11 +196,11 @@ create_country_leader = {
 }	
 
 create_country_leader = {
-	name = "Andy Penson"
+	name = "Dr Paul Green"
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
 	picture = "Portrait_ENG_Michael_Holmes.dds"
 	expire = "2050.1.1"
-	ideology = progressive_ideology
+	ideology = green
 }	
 
 create_country_leader = {
