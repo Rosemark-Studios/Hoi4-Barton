@@ -1,6 +1,6 @@
 capital = 889
 
-oob = "ENG_2000"
+oob = "BAR_2016"
 
 set_research_slots = 4
 set_convoys = 1000
@@ -142,7 +142,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mary Fake"
 	desc = "POLITICIAN_ENG_MICHAEL_HOLMES_DESC"
-	picture = "Portrait_ENG_Michael_Holmes.dds"
+	picture = "Portrait_BAR_Mary.dds"
 	expire = "2050.1.1"
 	ideology = proto_fascist
 }	

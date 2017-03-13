@@ -1,5 +1,5 @@
 name="Millennium Dawn: Barton"
-path="mod/barton/"
+path="mod/bartonmod/"
 tags={
 	"Alternative History"
 	"Military"
