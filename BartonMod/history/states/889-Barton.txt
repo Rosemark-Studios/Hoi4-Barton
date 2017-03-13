@@ -18,15 +18,6 @@ state={
 		owner = BAR
 		add_core_of = BAR
 		
-		resources = {
-			oil = 200
-			steel = 200
-			rubber = 200
-			aluminium = 200
-			chromium = 200
-			tungsten = 200
-		}
-		
 		buildings = {
 		
 			dockyard = 10

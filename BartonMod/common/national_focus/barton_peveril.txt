@@ -409,19 +409,19 @@ focus_tree = {
 	
 	
 #Diplomacy/Misc Focus'
-	focus = {
-		id = BAR_
-		icon = 
-		x = 
-		y = 
-		cost = 10
-		
-		prerequisite = { focus = BAR_ }
-		
-		completion_reward = {
-			
-		}
-	}
+#	focus = {
+#		id = BAR_
+#		icon = 
+#		x = 
+#		y = 
+#		cost = 10
+#		
+#		prerequisite = { focus = BAR_ }
+#		
+#		completion_reward = {
+#			
+#		}
+#	}
 #Army Focus'
 
 #Air Focus'
