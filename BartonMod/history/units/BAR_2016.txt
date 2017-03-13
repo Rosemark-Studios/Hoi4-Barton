@@ -179,6 +179,104 @@ units = {
 		start_experience_factor = 0.9
 	}
 	
+		division = {
+		name = "Student Division"
+		location = 6489
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	
+	division = {
+		name = "Student Division"
+		location = 6489
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	
+	division = {
+		name = "Student Division"
+		location = 6489
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	
+	division = {
+		name = "Student Division"
+		location = 6489
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	
+	division = {
+		name = "Student Division"
+		location = 6489
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+
+	division = {
+		name = "Student Division"
+		location = 6489
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	
+	division = {
+		name = "Student Division"
+		location = 6489
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	
+	division = {
+		name = "Student Division"
+		location = 6489
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	
+	division = {
+		name = "Student Division"
+		location = 6489
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	
+	division = {
+		name = "Student Division"
+		location = 6489
+		division_template = "Infantry Division"
+		start_experience_factor = 0.9
+	}
+	
+	division = {
+		name = "Bluestar Division"
+		location = 6489
+		division_template = "Armoured Division"
+		start_experience_factor = 0.9
+	}
+	
+	division = {
+		name = "Bluestar Division"
+		location = 6489
+		division_template = "Armoured Division"
+		start_experience_factor = 0.9
+	}
+	
+	division = {
+		name = "Bluestar Division"
+		location = 6489
+		division_template = "Armoured Division"
+		start_experience_factor = 0.9
+	}
+	
+	division = {
+		name = "Bluestar Division"
+		location = 6489
+		division_template = "Armoured Division"
+		start_experience_factor = 0.9
+	}
+	
 }
 
 instant_effect = {
