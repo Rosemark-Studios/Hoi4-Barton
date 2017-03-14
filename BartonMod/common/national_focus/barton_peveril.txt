@@ -156,6 +156,7 @@ focus_tree = {
 				ruling_party = nationalist
 				elections_allowed = no
 			}
+			add_manpower = -50000
 		}
 	}
 	
@@ -245,6 +246,7 @@ focus_tree = {
 				ruling_party = reactionary
 				elections_allowed = yes
 			}
+			country_event = { id = barton_peveril.2 }
 		}
 	}
 	
@@ -657,19 +659,64 @@ focus_tree = {
 	}
 	
 #Diplomacy/Misc Focus'
-#	focus = {
-#		id = BAR_
-#		icon = 
-#		x = 
-#		y = 
-#		cost = 10
-#		
-#		prerequisite = { focus = BAR_ }
-#		
-#		completion_reward = {
-#			
-#		}
-#	}
+	focus = {
+		id = BAR_a_force_to_be_reckoned_with
+		icon = political_pressure
+		x = 28
+		y = 0
+		cost = 4
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = BAR_the_british_solution
+		icon = political_pressure
+		x = 25
+		y = 1
+		cost = 7
+		
+		prerequisite = { focus = BAR_a_force_to_be_reckoned_with }
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = BAR_demand_the_south
+		icon = political_pressure
+		x = 24
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_the_british_solution }
+		
+		mutually_exclusive = { focus = BAR_expand_catchment_area }
+		
+		completion_reward = {
+			#play event to british with two options accept or deny
+		}
+	}
+	
+	focus = {
+		id = BAR_expand_catchment_area
+		icon = political_pressure
+		x = 26
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_the_british_solution }
+		
+		mutually_exclusive = { focus = BAR_demand_the_south}
+		
+		completion_reward = {
+			ENG = { transfer_state = 127 }
+		}
+	}
+	
 #Army Focus'
 
 #Air Focus'
