@@ -1,5 +1,6 @@
 add_namespace = barton_peveril
 
+#Colin Firth Becomes King
 country_event = {
 	id = barton_peveril.1
 	title = barton_peveril.1.t
@@ -18,5 +19,24 @@ country_event = {
 			elections_allowed = no
 		}
 		add_national_unity = 0.1
+	}
+}
+
+#Barton Independence
+country_event = {
+	id = barton_peveril.2
+	title = barton_peveril.2.t
+	desc = barton_peveril.2.d
+	picture = GFX_report_event_nine_eleven
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = {
+		name = barton_peveril.2.o1
+		ENG = { remove_state_core = 889 }
+		add_national_unity = -0.05
 	}
 }
