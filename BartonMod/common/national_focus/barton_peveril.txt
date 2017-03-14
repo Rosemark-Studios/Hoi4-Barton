@@ -93,6 +93,27 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = BAR_the_barton_mega_plan
+		icon = political_pressure
+		x = 0
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BAR_make_barton_mega_again }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.35
+			}
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+		}
+	}
+	
+	focus = {
 		id = BAR_reduce_funding_for_non_bartonians
 		icon = support_fascism
 		x = 2
@@ -113,6 +134,27 @@ focus_tree = {
 			add_popularity = {
 				ideology = nationalist
 				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_ban_on_non_bartonians
+		icon = political_pressure
+		x = 2
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BAR_reduce_funding_for_non_bartonians }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.35
+			}
+			set_politics = {
+				ruling_party = nationalist
+				elections_allowed = no
 			}
 		}
 	}
@@ -143,7 +185,25 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BAR_bartexit
+		id = BAR_preparations_for_colin
+		icon = political_pressure
+		x = 4
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BAR_campaign_for_colin }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.35
+			}
+			country_event = { id = barton_peveril.1 }
+		}
+	}
+	
+	focus = {
+		id = BAR_bartexit_referendum
 		icon = support_fascism
 		x = 6
 		y = 2
@@ -163,6 +223,27 @@ focus_tree = {
 			add_popularity = {
 				ideology = reactionary
 				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_barton_independence
+		icon = political_pressure
+		x = 6
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BAR_bartexit }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = reactionary
+				popularity = 0.35
+			}
+			set_politics = {
+				ruling_party = reactionary
+				elections_allowed = yes
 			}
 		}
 	}
@@ -193,6 +274,27 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = BAR_old_bartonian_board_of_directors
+		icon = political_pressure
+		x = 8
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BAR_old_bartonian_funding }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = conservative
+				popularity = 0.35
+			}
+			set_politics = {
+				ruling_party = conservative
+				elections_allowed = yes
+			}
+		}
+	}
+	
+	focus = {
 		id = BAR_isis_sister_college
 		icon = support_fascism
 		x = 10
@@ -213,6 +315,27 @@ focus_tree = {
 			add_popularity = {
 				ideology = islamist
 				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_enforce_sharia_law
+		icon = political_pressure
+		x = 10
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BAR_isis_sister_college }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = islamist
+				popularity = 0.35
+			}
+			set_politics = {
+				ruling_party = islamist
+				elections_allowed = no
 			}
 		}
 	}
@@ -283,6 +406,27 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = BAR_247_maths_hub
+		icon = political_pressure
+		x = 12
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BAR_after_hours_maths_hub }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = market_liberal
+				popularity = 0.35
+			}
+			set_politics = {
+				ruling_party = market_liberal
+				elections_allowed = yes
+			}
+		}
+	}
+	
+	focus = {
 		id = BAR_subscribe_to_tl_maths
 		icon = support_democracy
 		x = 14
@@ -303,6 +447,27 @@ focus_tree = {
 			add_popularity = {
 				ideology = social_liberal
 				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_100m_subscriber_push
+		icon = political_pressure
+		x = 14
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BAR_subscribe_to_tl_maths }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.35
+			}
+			set_politics = {
+				ruling_party = social_liberal
+				elections_allowed = yes
 			}
 		}
 	}
@@ -333,6 +498,27 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = BAR_mental_suvat_arithmetic
+		icon = political_pressure
+		x = 16
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BAR_suvat_homework_for_all }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.35
+			}
+			set_politics = {
+				ruling_party = social_democrat
+				elections_allowed = yes
+			}
+		}
+	}
+	
+	focus = {
 		id = BAR_it_reforms
 		icon = support_democracy
 		x = 18
@@ -353,6 +539,27 @@ focus_tree = {
 			add_popularity = {
 				ideology = progressive
 				popularity = 0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = BAR_advanced_self_learning_algorithms
+		icon = political_pressure
+		x = 18
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BAR_it_reforms }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = progressive
+				popularity = 0.35
+			}
+			set_politics = {
+				ruling_party = progressive
+				elections_allowed = yes
 			}
 		}
 	}
@@ -383,6 +590,27 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = BAR_students_union_leadership_programme
+		icon = political_pressure
+		x = 20
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BAR_found_the_students_union }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic_socialist
+				popularity = 0.35
+			}
+			set_politics = {
+				ruling_party = democratic_socialist
+				elections_allowed = yes
+			}
+		}
+	}
+	
+	focus = {
 		id = BAR_cheung_for_head_of_science
 		icon = support_communism
 		x = 22
@@ -407,6 +635,26 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = BAR_cheung_for_director
+		icon = political_pressure
+		x = 22
+		y = 3
+		cost = 10
+		
+		prerequisite = { focus = BAR_cheung_for_head_of_science }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = communist
+				popularity = 0.35
+			}
+			set_politics = {
+				ruling_party = communist
+				elections_allowed = yes
+			}
+		}
+	}
 	
 #Diplomacy/Misc Focus'
 #	focus = {
