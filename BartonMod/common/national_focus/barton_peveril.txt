@@ -678,6 +678,10 @@ focus_tree = {
 		y = 1
 		cost = 7
 		
+		bypass = {
+			ENG = { exists = no }
+		}
+		
 		prerequisite = { focus = BAR_a_force_to_be_reckoned_with }
 		
 		completion_reward = {
@@ -693,6 +697,10 @@ focus_tree = {
 		x = 17
 		y = 2
 		cost = 10
+		
+		bypass = {
+			ENG = { exists = no }
+		}
 		
 		prerequisite = { focus = BAR_the_british_solution }
 		
@@ -713,6 +721,10 @@ focus_tree = {
 		y = 3
 		cost = 10
 		
+		bypass = {
+			ENG = { exists = no }
+		}
+		
 		prerequisite = { focus = BAR_demand_the_south }
 		
 		completion_reward = {
@@ -726,6 +738,10 @@ focus_tree = {
 		x = 19
 		y = 2
 		cost = 10
+		
+		bypass = {
+			ENG = { exists = no }
+		}
 		
 		prerequisite = { focus = BAR_the_british_solution }
 		
@@ -743,26 +759,31 @@ focus_tree = {
 		y = 3
 		cost = 10
 		
+		bypass = {
+			ENG = { exists = no }
+		}
+		
 		prerequisite = { focus = BAR_expand_catchment_area }
 		
 		completion_reward = {
-			BAR = { 
-				transfer_state = 119
-				transfer_state = 120
-				transfer_state = 121
-				transfer_state = 122
-				transfer_state = 123
-				transfer_state = 125
-				transfer_state = 126
-				transfer_state = 128
-				transfer_state = 129
-				transfer_state = 130
-				transfer_state = 131
-				transfer_state = 132
-				transfer_state = 133
-				transfer_state = 136
-				transfer_state = 138
-			}
+			#BAR = { 
+			#	transfer_state = 119
+			#	transfer_state = 120
+			#	transfer_state = 121
+			#	transfer_state = 122
+			#	transfer_state = 123
+			#	transfer_state = 125
+			#	transfer_state = 126
+			#	transfer_state = 128
+			#	transfer_state = 129
+			#	transfer_state = 130
+			#	transfer_state = 131
+			#	transfer_state = 132
+			#	transfer_state = 133
+			#	transfer_state = 136
+			#	transfer_state = 138
+			#}
+			annex_country = { target = ENG }
 		}
 	}
 	
@@ -865,6 +886,20 @@ focus_tree = {
 		id = BAR_25p_hash_browns
 		icon = political_pressure
 		x = 25
+		y = 2
+		cost = 10
+		
+		prerequisite = { focus = BAR_cafeteria_menu_redesign }
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = BAR_mega_pizza
+		icon = political_pressure
+		x = 27
 		y = 2
 		cost = 10
 		
