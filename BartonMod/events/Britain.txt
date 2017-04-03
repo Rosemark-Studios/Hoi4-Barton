@@ -904,6 +904,7 @@ country_event = {
 	}
 }
 
+
 #Barton Demands the South
 country_event = {
 	id = britain.27
@@ -922,6 +923,11 @@ country_event = {
 	}
 	option = { #Reject the demand
 		name = britain.27.o2
-		
+		BAR = { 
+			create_wargoal = {
+				type = annex_everything
+				target = ENG
+			} 
+		}
 	}
 }
