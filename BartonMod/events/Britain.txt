@@ -919,10 +919,22 @@ country_event = {
 	
 	option = { #Accept the demand
 		name = britain.27.o1
-		BAR = { transfer_state = 120}
+		add_national_unity = -0.10
+		BAR = { 
+			transfer_state = 123
+			transfer_state = 127
+		}
 	}
 	option = { #Reject the demand
 		name = britain.27.o2
+		add_popularity = {
+				ideology = nationalist
+				popularity = 0.05
+			}
+		add_popularity = {
+				ideology = reactionary
+				popularity = 0.05
+			}
 		BAR = { 
 			create_wargoal = {
 				type = annex_everything

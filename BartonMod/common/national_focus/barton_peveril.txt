@@ -805,24 +805,23 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		#remove cores on british terrorities
-			ENG = { 
-				remove_state_core = 119
-				remove_state_core = 120
-				remove_state_core = 121
-				remove_state_core = 122
-				remove_state_core = 123
-				remove_state_core = 125
-				remove_state_core = 126
-				remove_state_core = 128
-				remove_state_core = 129
-				remove_state_core = 130
-				remove_state_core = 131
-				remove_state_core = 132
-				remove_state_core = 133
-				remove_state_core = 136
-				remove_state_core = 138
-			}
+		#gain cores on british terrorities
+		#	add_state_core = 119
+		#	add_state_core = 120
+		#	add_state_core = 121
+		#	add_state_core = 122
+		#	add_state_core = 123
+		#	add_state_core = 125
+		#	add_state_core = 126
+		#	add_state_core = 128
+		#	add_state_core = 129
+		#	add_state_core = 130
+		#	add_state_core = 131
+		#	add_state_core = 132
+		#	add_state_core = 133
+		#	add_state_core = 136
+		#	add_state_core = 138
+			ENG = { any_owned_state = { add_core_of = BAR } }
 		}
 	}
 	
@@ -836,7 +835,7 @@ focus_tree = {
 		prerequisite = { focus = BAR_a_force_to_be_reckoned_with }
 		
 		completion_reward = {
-			
+			#just add political power or something basic
 		}
 	}
 	
@@ -850,7 +849,7 @@ focus_tree = {
 		prerequisite = { focus = BAR_cafeteria_menu_redesign }
 		
 		completion_reward = {
-			
+			conscription = 0.02
 		}
 	}
 	
@@ -864,7 +863,7 @@ focus_tree = {
 		prerequisite = { focus = BAR_barton_mega_burger }
 		
 		completion_reward = {
-			
+			conscription = 0.01
 		}
 	}
 	
@@ -878,7 +877,7 @@ focus_tree = {
 		prerequisite = { focus = BAR_cafeteria_menu_redesign }
 		
 		completion_reward = {
-			
+			category_all_infantry = { max_organisation = 10 }
 		}
 	}
 	
@@ -892,7 +891,8 @@ focus_tree = {
 		prerequisite = { focus = BAR_cafeteria_menu_redesign }
 		
 		completion_reward = {
-			
+			supply_consumption_factor = -0.05
+			attrition = -0.05
 		}
 	}
 
@@ -906,7 +906,7 @@ focus_tree = {
 		prerequisite = { focus = BAR_cafeteria_menu_redesign }
 		
 		completion_reward = {
-			
+			category_all_infantry = { breakthrough = 0.10 }
 		}
 	}
 #Army Focus'
