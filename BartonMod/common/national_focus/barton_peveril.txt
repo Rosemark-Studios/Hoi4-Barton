@@ -728,7 +728,10 @@ focus_tree = {
 		prerequisite = { focus = BAR_demand_the_south }
 		
 		completion_reward = {
-			#declare war on britain
+			create_wargoal = {
+				type = annex_everything
+				target = ENG
+			}
 		}
 	}
 	
@@ -909,6 +912,10 @@ focus_tree = {
 			category_all_infantry = { breakthrough = 0.10 }
 		}
 	}
+	
+	#focus ideas: make chicken nuggets and chips (desc: surely no-one would buy these), increase prices (desc: apparantly only one student is actually buying these, i wonder if we increase the price would he still buy them?)
+	#upgrade focus: frez chips
+	#perhaps replace the 25p hash browns with chicken nuggets and chips
 #Army Focus'
 
 #Air Focus'
